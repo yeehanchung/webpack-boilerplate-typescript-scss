@@ -1,0 +1,19 @@
+$header-one-color: tomato;
+$paragraph-color: #000c66;
+
+.container {
+	height: 100vh;
+	display: flex;
+	align-content: center;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: $header-one-color;
+}
+
+p {
+	color: $paragraph-color;
+}
