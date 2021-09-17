@@ -22,6 +22,11 @@ function liveClock() {
 }
 setInterval(liveClock, 1000);
 
+// ----- create a shadow root
+
+
+// --------------------------
+
 // -------- append child --------
 container.appendChild(header);
 container.appendChild(paragraph);
