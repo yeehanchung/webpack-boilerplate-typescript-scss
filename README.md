@@ -6,7 +6,7 @@ This boilerplate is a playground for us to start developing stuff using:
 - SCSS
 - HTML
 
-## Get started
+## Getting started
 
 Install all dependencies.
 
