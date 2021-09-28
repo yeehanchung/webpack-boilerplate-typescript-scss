@@ -20,17 +20,20 @@ Run development server locally. Hot reloading on changes.
 npm run dev
 ```
 
-Want to upload to a server? Build everything and upload it.
+Want to build for `production` and upload to Netlify, Vercel, GitHub Pages and other deployment services?
+
+1. Change the mode in `webpack.config.js` to from `development` to `production`.
+
+2. Run build and serve scripts below:
 
 ```shell
 npm run build && npm run serve
 ```
 
-How it is processed?
+## How it is processed?
 
 - Must -D to not distribute to the users
-- Compile for us by using webpack.config.js
+- Compile for us by using `webpack.config.js`
 - Two processes are running:
   - dev server (delivering)
   - server build
-
