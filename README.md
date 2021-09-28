@@ -14,7 +14,7 @@ Install all dependencies.
 npm install
 ```
 
-Run development server locally. Can see any changes everything code changes.
+Run development server locally. Hot reloading on changes.
 
 ```shell
 npm run dev
